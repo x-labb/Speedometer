@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compteur</string>
+
+    <string name="status_acquiring">Acquisition GPS…</string>
+    <string name="status_live">Signal GPS</string>
+    <string name="status_weak">Signal faible</string>
+    <string name="status_lost">Signal perdu</string>
+
+    <string name="satellites_fmt">%1$d/%2$d sat.</string>
+    <string name="mock_warning">Position simulée détectée — cette mesure n\'est pas réelle.</string>
+
+    <string name="stat_max">MAX</string>
+    <string name="stat_avg">MOY</string>
+    <string name="stat_distance">TRAJET</string>
+
+    <string name="action_switch_to">Passer en %1$s</string>
+    <string name="action_reset">Réinitialiser</string>
+    <string name="action_grant">Autoriser</string>
+    <string name="action_open_settings">Ouvrir les paramètres</string>
+    <string name="action_open_location_settings">Paramètres de localisation</string>
+
+    <string name="permission_title">Autorisation de localisation requise</string>
+    <string name="permission_body">La vitesse est lue directement depuis le récepteur GPS. Rien ne quitte votre téléphone — cette application n\'a aucune permission internet.</string>
+    <string name="permission_body_coarse">La localisation approximative ne permet pas de mesurer la vitesse. Veuillez autoriser la position précise.</string>
+    <string name="permission_body_blocked">L\'autorisation est bloquée. Ouvrez les paramètres de l\'application, puis réglez Localisation sur « Autoriser uniquement si l\'app est utilisée » et activez « Position précise ».</string>
+
+    <string name="location_off_title">La localisation est désactivée</string>
+    <string name="location_off_body">Activez la localisation dans les paramètres pour que le GPS puisse obtenir un point.</string>
+</resources>

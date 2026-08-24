@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speedometer</string>
+
+    <string name="status_acquiring">Acquiring GPS…</string>
+    <string name="status_live">GPS fix</string>
+    <string name="status_weak">Weak signal</string>
+    <string name="status_lost">Signal lost</string>
+
+    <string name="satellites_fmt">%1$d/%2$d sats</string>
+    <string name="mock_warning">Mock location detected — this reading is simulated.</string>
+
+    <string name="stat_max">MAX</string>
+    <string name="stat_avg">AVG</string>
+    <string name="stat_distance">TRIP</string>
+
+    <string name="action_switch_to">Switch to %1$s</string>
+    <string name="action_reset">Reset trip</string>
+    <string name="action_grant">Grant permission</string>
+    <string name="action_open_settings">Open app settings</string>
+    <string name="action_open_location_settings">Open location settings</string>
+
+    <string name="permission_title">Location permission needed</string>
+    <string name="permission_body">Speed is read straight from the GPS receiver. Nothing leaves your phone — this app has no internet permission at all.</string>
+    <string name="permission_body_coarse">Approximate location cannot measure speed. Please allow precise location.</string>
+    <string name="permission_body_blocked">Location permission is blocked. Open app settings, then set Location to “Allow only while using the app” and turn on “Use precise location”.</string>
+
+    <string name="location_off_title">Location is switched off</string>
+    <string name="location_off_body">Turn Location on in system settings so the GPS receiver can get a fix.</string>
+</resources>
